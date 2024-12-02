@@ -1,5 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: black;
     color: white;
 }
 
+img{
+    width: 488px;
+    height: 550px;
+}
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* A classe que abraça todo o conteúdo, você configura a largura de acordo com o projeto, e o espaçamento entre os elementos fica aqui!!!! */
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: Krona One;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.apresentacao__conteudo__texto{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: light;
+}
+
+.apresentacao__links__titulo{
+    font-family: Krona One;
+    font-size: 24px;
+    text-align: center;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+}
+
+.apresentacao__links__link{
+    width: 378px;
+    height: 68px;
+    text-align: center;
+    border: solid #22d4fd;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icone1, .icone2{
+    height: 32px;
+    width: 32px;
+    display: inline;
+}
+
+.rodape{
+    font-family: Montserrat;
+    font-size: 24px;
+    background-color:#22d4fd;
+    width: 100%;
+    height: 80px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    padding-top: 25px;
+}
