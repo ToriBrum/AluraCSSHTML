@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: black;
-    color: white;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
 img{
@@ -34,7 +36,6 @@ img{
 .apresentacao__conteudo__titulo{
     font-family: Krona One;
     font-size: 36px;
-    margin-bottom: 40px;
 }
 
 .apresentacao__conteudo__texto{
