@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --fonte-principal: 'Krona One';
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     overflow: none;
 }
 
@@ -14,7 +22,7 @@ body{
 }
 
 .titulo-destaque{
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao{
@@ -34,18 +42,18 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-family: Krona One;
+    font-family: var(--fonte-principal);
     font-size: 26px;
 }
 
 .apresentacao__conteudo__texto{
-    font-family: Montserrat;
+    font-family: var(--fonte-texto);
     font-size: 17px;
     font-weight: light;
 }
 
 .apresentacao__links__titulo{
-    font-family: Krona One;
+    font-family: var(--fonte-principal);
     font-size: 18px;
     text-align: center;
 }
@@ -61,12 +69,12 @@ body{
 .apresentacao__links__link{
     width: 230px;
     height: 50px;
-    border: 2px solid #22d4fd;
+    border: 2px solid var(--cor-terciaria);
     text-align: center;
     border-radius: 8px;
     text-decoration: none;
-    color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-texto);
     font-size: 18px;
     font-weight: 600;
     padding: 13px 0;
@@ -81,31 +89,21 @@ body{
     width: 32px;
 }
 
-/* .rodape{
-    font-family: Montserrat;
-    font-size: 18px;
-    background-color:#22d4fd;
-    width: 100%;
-    height: 40px;
-    color: black;
-    position: static;
-} */
-
 .rodape{
     color: black;
-    background-color: #22d4fd;
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
     font-size: 24px;
     font-weight: 400;
 }
 
 .menu a{
     text-decoration: none;
-    color: #22d4fd;
+    color: var(--cor-terciaria);
     font-size: 24px;
-    font-family: Montserrat;
+    font-family: var(--fonte-texto);
 }
 
 .menu li{
